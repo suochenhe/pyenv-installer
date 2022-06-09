@@ -1,6 +1,6 @@
 pyenv installer
 ===============
-
+.. code:: bash
 安装方法
 
 curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
