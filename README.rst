@@ -3,10 +3,16 @@ pyenv installer
 
 安装方法
 ------
+设置GIT代理(文件目录 /home/op/.gitconfig, 可在文件中删除配置), 然后使用原命令即可：建议
+
 .. code:: bash
 
-    curl -L https://github.com/suochenhe/pyenv-installer/raw/master/bin/pyenv-installer | bash
+    git config --global url."https://gitclone.com/".insteadOf https://
+    curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
     
+
+或者使用修改过后的脚本
+
 .. code:: bash
 
     curl -L https://raw.githubusercontent.com/suochenhe/pyenv-installer/master/bin/pyenv-installer | bash
