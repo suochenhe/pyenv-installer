@@ -8,6 +8,7 @@ pyenv installer
 .. code:: bash
 
     git config --global url."https://gitclone.com/".insteadOf https://
+    
     curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
     
 
