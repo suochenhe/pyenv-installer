@@ -6,6 +6,10 @@ pyenv installer
 .. code:: bash
 
     curl -L https://github.com/suochenhe/pyenv-installer/raw/master/bin/pyenv-installer | bash
+    
+.. code:: bash
+
+    curl -L https://raw.githubusercontent.com/suochenhe/pyenv-installer/master/bin/pyenv-installer | bash
 
 Restart your shell so the path changes take effect:
     
