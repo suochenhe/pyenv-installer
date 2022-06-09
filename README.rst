@@ -9,7 +9,9 @@ pyenv installer
 
 Restart your shell so the path changes take effect:
     
-
+    
+    
+    
 This tool installs `pyenv <https://github.com/pyenv/pyenv>`__ and friends. It is inspired by `rbenv-installer <https://github.com/rbenv/rbenv-installer>`__.
 
 Prerequisites
